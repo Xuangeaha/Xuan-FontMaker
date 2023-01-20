@@ -3,7 +3,7 @@
 """
 
 class PrintBiggerWord:
-    def __init__(self,sentence=str):
+    def __init__(self,sentence:str):
         length = len(sentence)
         for x in range(0, length):
             word = sentence[x].upper()
